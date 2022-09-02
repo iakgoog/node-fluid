@@ -1,14 +1,15 @@
 {
-  "name": "fluid",
+  "name": "node-fluid",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Sutthinart Khunvadhana",
+  "license": "MIT",
   "dependencies": {
     "tinylicious": "^0.4.89251"
   }
